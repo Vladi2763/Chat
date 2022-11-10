@@ -1,0 +1,49 @@
+@import '../../styles/variables.scss';
+
+.content {
+    width: calc(100% - 64px);
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+
+    &__textMessage {
+    width: 100%;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: $smallMessage-color;
+    }
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    &__title {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        color: $content-color;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    &__time {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        color: $smallMessage-color;
+    }
+}
+
+.cont {
+    width: 100%;
+}

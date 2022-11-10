@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+.chat {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    padding: 12px 16px 12px 16px;
+    cursor: pointer;
+
+    &:hover{
+    background-color: $chat-hover;
+    }
+
+    &_selected {
+    background-color: rgba(64, 126, 201, 0.08);
+    }
+}

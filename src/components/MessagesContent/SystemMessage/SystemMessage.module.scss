@@ -1,0 +1,15 @@
+@import '../../../styles/variables.scss';
+
+.systemMessage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 86px;
+    height: 32px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: $content-color;
+    background: rgba(64, 126, 201, 0.08);
+    margin-bottom: 12px;
+    }

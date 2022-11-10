@@ -1,0 +1,29 @@
+@import '../../styles/variables.scss';
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid grey;
+    width: 360px;
+    height: 100%;
+
+    &_title {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    font-family: 'Lato';
+    padding-left: 16px;
+    height: 64px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: $content-color;
+    }
+
+    &__chats {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-y: auto;
+    }
+}

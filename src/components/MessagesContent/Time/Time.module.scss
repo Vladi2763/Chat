@@ -1,0 +1,15 @@
+.time {
+    display: flex;
+    align-items: flex-end;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 9px;
+    color: #605E5C;
+    position: absolute;
+    bottom: 8px;
+    right: 12px;
+
+    &__my {
+        right: 30px;
+    }
+}
